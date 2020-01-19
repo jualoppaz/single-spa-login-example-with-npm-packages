@@ -1,0 +1,36 @@
+{
+  "name": "single-spa-login-example-with-npm-modules",
+  "version": "0.0.1",
+  "description": "Single-spa application example which imports registered applications from NPM packages and manages authentication features as login.",
+  "main": "single-spa-applications.js",
+  "scripts": {
+    "serve": "webpack-dev-server",
+    "start": "node server.js",
+    "build": "webpack --config webpack.config.js -p",
+    "heroku-postbuild": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jualoppaz/single-spa-login-example-with-npm-modules.git"
+  },
+  "author": "Juan Manuel López Pazos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jualoppaz/single-spa-login-example-with-npm-modules/issues"
+  },
+  "homepage": "https://github.com/jualoppaz/single-spa-login-example-with-npm-modules#readme",
+  "dependencies": {
+    "bootstrap": "4.4.1",
+    "bootstrap-vue": "2.2.2",
+    "single-spa": "4.4.2",
+    "single-spa-layout-app": "0.0.1",
+    "@babel/core": "7.8.3",
+    "babel-loader": "8.0.6",
+    "clean-webpack-plugin": "3.0.0",
+    "copy-webpack-plugin": "5.1.1",
+    "webpack": "4.41.5",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.10.1"
+  }
+}
