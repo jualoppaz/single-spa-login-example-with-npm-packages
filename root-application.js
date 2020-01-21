@@ -2,7 +2,7 @@ import * as singleSpa from "single-spa";
 
 singleSpa.registerApplication(
   "login",
-  () => import("single-spa-login-app"),
+  () => import("single-spa-auth-app"),
   showWhenAnyOf(["/login"])
 );
 singleSpa.registerApplication(
