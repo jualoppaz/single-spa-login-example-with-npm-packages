@@ -1,5 +1,5 @@
 {
-  "name": "single-spa-login-example-with-npm-modules",
+  "name": "single-spa-login-example-with-npm-packages",
   "version": "0.0.1",
   "description": "Single-spa application example which imports registered applications from NPM packages and manages authentication features as login.",
   "main": "single-spa-applications.js",
