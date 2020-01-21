@@ -1,8 +1,8 @@
 {
-  "name": "single-spa-login-example-with-npm-modules",
+  "name": "single-spa-login-example-with-npm-packages",
   "version": "0.0.1",
   "description": "Single-spa application example which imports registered applications from NPM packages and manages authentication features as login.",
-  "main": "single-spa-applications.js",
+  "main": "root-application.js",
   "scripts": {
     "serve": "webpack-dev-server",
     "start": "node server.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jualoppaz/single-spa-login-example-with-npm-modules.git"
+    "url": "git+https://github.com/jualoppaz/single-spa-login-example-with-npm-packages.git"
   },
   "author": "Juan Manuel López Pazos",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jualoppaz/single-spa-login-example-with-npm-modules/issues"
+    "url": "https://github.com/jualoppaz/single-spa-login-example-with-npm-packages/issues"
   },
-  "homepage": "https://github.com/jualoppaz/single-spa-login-example-with-npm-modules#readme",
+  "homepage": "https://github.com/jualoppaz/single-spa-login-example-with-npm-packages#readme",
   "dependencies": {
     "bootstrap": "4.4.1",
     "bootstrap-vue": "2.2.2",
