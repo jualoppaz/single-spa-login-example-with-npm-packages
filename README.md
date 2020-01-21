@@ -1,1 +1,37 @@
-# single-spa-login-example-with-npm-modules
+<img src="https://single-spa.js.org/img/logo-white-bgblue.svg" width="50" height="50">
+
+[![npm version](https://img.shields.io/npm/v/single-spa-login-example-with-npm-packages.svg?style=flat-square)](https://www.npmjs.org/package/single-spa-login-example-with-npm-packages)
+[![](https://data.jsdelivr.com/v1/package/npm/single-spa-login-example-with-npm-packages/badge)](https://www.jsdelivr.com/package/npm/single-spa-login-example-with-npm-packages)
+
+# single-spa-login-example-with-npm-packages
+
+Single-spa application example which imports registered applications from NPM packages and manages authentication features as login.
+
+## Motivation
+
+This application is a little [demo](https://single-spa-with-npm-packages.herokuapp.com/) of how you can use single-spa splitting code with [Option 2: NPM packages](https://single-spa.js.org/docs/separating-applications#option-2-npm-packages)
+
+## Demo
+
+You can see a working demo of this application in the next link: [https://single-spa-with-npm-packages.herokuapp.com](https://single-spa-with-npm-packages.herokuapp.com/).
+
+The login validation is harcoded in code and the credentials are:
+
+| User          | Password      |     
+| ------------- |:-------------:|
+| admin         | 12345         |
+
+## single-spa applications
+
+This application is a root-application that inits a single-spa application that integrates two registered applications:
+
+- [single-spa-auth-app](https://github.com/jualoppaz/single-spa-auth-app)
+- [single-spa-layout-app](https://github.com/jualoppaz/single-spa-layout-app)
+
+### single-spa-auth-app
+
+This application is displayed by default as there is no logged in user. A login form is printed and the credentials can be set for perform the login and access to the private views.
+
+### single-spa-layout-app
+
+This application contains **topbar** and **sidebar** menus, **navigation** between registered applications and **/login** redirection if **logout** link is clicked or **token** is removed from **sessionStorage**.
