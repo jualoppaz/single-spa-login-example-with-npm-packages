@@ -1,13 +1,14 @@
 const path = require("path");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: {
     "root-application": "root-application.js"
   },
   output: {
-    publicPath: "/dist/",
+    publicPath: "/",
     filename: "[name].js"
   },
   module: {
@@ -41,7 +42,11 @@ module.exports = {
         ),
         to: path.resolve(__dirname, "dist/img")
       }
-    ])
+    ]),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "index.html"),
+      inject: false
+    })
   ],
   devtool: "source-map",
   externals: [],
