@@ -21,6 +21,21 @@ The login validation is harcoded in code and the credentials are:
 | ------------- |:-------------:|
 | admin         | 12345         |
 
+## Run in localhost
+
+If you prefer run this application in localhost you must follow next steps:
+
+```
+npm install
+```
+
+```
+npm run serve
+```
+
+Finally you only have to open [http://localhost:8080](http://localhost:8080) in a browser to see the app running
+
+
 ## single-spa applications
 
 This application is a root-application that inits a single-spa application that integrates two registered applications:
