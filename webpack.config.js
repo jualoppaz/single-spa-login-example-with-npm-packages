@@ -13,6 +13,11 @@ module.exports = {
   },
   module: {
     rules: [
+        {
+            parser: {
+                system: false
+            }
+        },
       {
         test: /\.js?$/,
         exclude: [path.resolve(__dirname, "node_modules")],
