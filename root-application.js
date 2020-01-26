@@ -1,4 +1,5 @@
 import * as singleSpa from "single-spa";
+import 'zone.js';
 
 singleSpa.registerApplication(
   "login",
@@ -10,6 +11,11 @@ singleSpa.registerApplication(
   () => import("single-spa-layout-app"),
   showExcept(["/login"])
 );
+singleSpa.registerApplication(
+    "angular",
+    () => import("single-spa-angular-app"),
+    showWhenPrefix(["/angular"])
+  );
 
 singleSpa.start();
 
