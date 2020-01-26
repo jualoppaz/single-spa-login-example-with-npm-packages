@@ -50,3 +50,7 @@ This application is displayed by default as there is no logged in user. A login 
 ### 🧱 single-spa-layout-app
 
 This application contains **topbar** and **sidebar** menus, **navigation** between registered applications and **/login** redirection if **logout** link is clicked or **token** is removed from **sessionStorage**.
+
+### 👨‍💻 single-spa-angular-app
+
+This application is developed with **Angular v8** and is mounted when **Angular** sidebar item is clicked. In that case the url will be **/angular** and all **Angular** routes will be managed by **angular router**.
