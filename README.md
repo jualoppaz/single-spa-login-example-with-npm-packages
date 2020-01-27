@@ -38,10 +38,11 @@ Finally you only have to open [http://localhost:8080](http://localhost:8080) in 
 
 ## single-spa applications
 
-This application is a root-application that inits a single-spa application that integrates two registered applications:
+This application is a root-application that inits a single-spa application that integrates several registered applications:
 
 - [single-spa-auth-app](https://github.com/jualoppaz/single-spa-auth-app)
 - [single-spa-layout-app](https://github.com/jualoppaz/single-spa-layout-app)
+- [single-spa-angular-app](https://github.com/jualoppaz/single-spa-angular-app)
 
 ### 🔐 single-spa-auth-app
 
