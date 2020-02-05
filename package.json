@@ -38,6 +38,7 @@
     "single-spa-angular-app": "0.0.4",
     "single-spa-auth-app": "0.0.5",
     "single-spa-layout-app": "0.0.5",
+    "single-spa-vue-app": "0.1.2",
     "webpack": "4.41.5",
     "webpack-cli": "3.3.10",
     "webpack-dev-server": "3.10.1",
