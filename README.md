@@ -38,10 +38,11 @@ Finally you only have to open [http://localhost:8080](http://localhost:8080) in 
 
 ## single-spa applications
 
-This application is a root-application that inits a single-spa application that integrates two registered applications:
+This application is a root-application that inits a single-spa application that integrates several registered applications:
 
 - [single-spa-auth-app](https://github.com/jualoppaz/single-spa-auth-app)
 - [single-spa-layout-app](https://github.com/jualoppaz/single-spa-layout-app)
+- [single-spa-angular-app](https://github.com/jualoppaz/single-spa-angular-app)
 
 ### 🔐 single-spa-auth-app
 
@@ -50,3 +51,7 @@ This application is displayed by default as there is no logged in user. A login 
 ### 🧱 single-spa-layout-app
 
 This application contains **topbar** and **sidebar** menus, **navigation** between registered applications and **/login** redirection if **logout** link is clicked or **token** is removed from **sessionStorage**.
+
+### 👨‍💻 single-spa-angular-app
+
+This application is developed with **Angular v8** and is mounted when **Angular** sidebar item is clicked. In that case the url will be **/angular** and all **Angular** routes will be managed by **angular router**.
