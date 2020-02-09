@@ -42,6 +42,7 @@ This application is a root-application that inits a single-spa application that 
 
 - [single-spa-auth-app](https://github.com/jualoppaz/single-spa-auth-app)
 - [single-spa-layout-app](https://github.com/jualoppaz/single-spa-layout-app)
+- [single-spa-home-app](https://github.com/jualoppaz/single-spa-home-app)
 - [single-spa-angular-app](https://github.com/jualoppaz/single-spa-angular-app)
 - [single-spa-vue-app](https://github.com/jualoppaz/single-spa-vue-app)
 
@@ -51,12 +52,16 @@ This application is displayed by default as there is no logged in user. A login 
 
 ### <img src="https://vuejs.org/images/logo.png" width="25" height="25"> single-spa-layout-app
 
-This application contains **topbar** and **sidebar** menus, **navigation** between registered applications and **/login** redirection if **logout** link is clicked or **token** is removed from **sessionStorage**.
+This application contains **header**, **navbar** and **footer** sections, **navigation** between registered applications and **/login** redirection if **logout** link is clicked or **token** is removed from **sessionStorage**.
+
+### <img src="https://angularjs.org/img/ng-logo.png" width="25" height="25"> single-spa-home-app
+
+This application is developed with **Angular JS** and is mounted when home icon in navbar is clicked. In that case the url will be **/** and all **Angular JS** routes will be managed by **angular-ui-router**. By the moment this application has only one default routed view.
 
 ### <img src="https://angular.io/assets/images/logos/angular/angular.png" width="25" height="25"> single-spa-angular-app
 
-This application is developed with **Angular v8** and is mounted when **Angular** sidebar item is clicked. In that case the url will be **/angular** and all **Angular** routes will be managed by **angular router**.
+This application is developed with **Angular v8** and is mounted when **Angular** navbar item is clicked. In that case the url will be **/angular** and all **Angular** routes will be managed by **angular router**.
 
 ### <img src="https://vuejs.org/images/logo.png" width="25" height="25"> single-spa-vue-app
 
-This application is developed with **Vue** and is mounted when **Vue** sidebar item is clicked. In that case the url will be **/vue** and all **Vue** routes will be managed by **vue-router**.
+This application is developed with **Vue** and is mounted when **Vue** navbar item is clicked. In that case the url will be **/vue** and all **Vue** routes will be managed by **vue-router**.
