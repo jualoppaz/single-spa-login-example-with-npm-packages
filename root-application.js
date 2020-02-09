@@ -33,6 +33,12 @@ singleSpa.registerApplication(
 );
 
 singleSpa.registerApplication(
+  'home',
+  () => import('single-spa-home-app'),
+  showWhenAnyOf(['/']),
+);
+
+singleSpa.registerApplication(
   'angular',
   () => import('single-spa-angular-app'),
   showWhenPrefix(['/angular']),
