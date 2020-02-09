@@ -67,6 +67,6 @@ This application is developed with **Angular v8** and is mounted when **Angular*
 
 This application is developed with **Vue** and is mounted when **Vue** navbar item is clicked. In that case the url will be **/vue** and all **Vue** routes will be managed by **vue-router**.
 
-### <img src="https://cdn.auth0.com/blog/react-js/react.png" width="25" height="25"> single-spa-vue-app
+### <img src="https://cdn.auth0.com/blog/react-js/react.png" width="25" height="25"> single-spa-react-app
 
 This application is developed with **React** and is mounted when **React** navbar item is clicked. In that case the url will be **/react** and all **React** routes will be managed by **react-router-dom**.
