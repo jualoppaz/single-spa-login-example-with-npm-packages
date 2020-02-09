@@ -45,6 +45,7 @@ This application is a root-application that inits a single-spa application that 
 - [single-spa-home-app](https://github.com/jualoppaz/single-spa-home-app)
 - [single-spa-angular-app](https://github.com/jualoppaz/single-spa-angular-app)
 - [single-spa-vue-app](https://github.com/jualoppaz/single-spa-vue-app)
+- [single-spa-react-app](https://github.com/jualoppaz/single-spa-react-app)
 
 ### <img src="https://vuejs.org/images/logo.png" width="25" height="25"> single-spa-auth-app
 
@@ -65,3 +66,7 @@ This application is developed with **Angular v8** and is mounted when **Angular*
 ### <img src="https://vuejs.org/images/logo.png" width="25" height="25"> single-spa-vue-app
 
 This application is developed with **Vue** and is mounted when **Vue** navbar item is clicked. In that case the url will be **/vue** and all **Vue** routes will be managed by **vue-router**.
+
+### <img src="https://cdn.auth0.com/blog/react-js/react.png" width="25" height="25"> single-spa-react-app
+
+This application is developed with **React** and is mounted when **React** navbar item is clicked. In that case the url will be **/react** and all **React** routes will be managed by **react-router-dom**.

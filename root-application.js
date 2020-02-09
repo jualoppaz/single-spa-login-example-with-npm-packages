@@ -50,4 +50,10 @@ singleSpa.registerApplication(
   showWhenPrefix(['/vue']),
 );
 
+singleSpa.registerApplication(
+  'react',
+  () => import('single-spa-react-app'),
+  showWhenPrefix(['/react']),
+);
+
 singleSpa.start();
