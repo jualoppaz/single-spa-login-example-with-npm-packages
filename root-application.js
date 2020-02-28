@@ -3,6 +3,9 @@
 import * as singleSpa from 'single-spa';
 import 'zone.js';
 
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
+
 function showWhenAnyOf(routes) {
   return function (location) {
     return routes.some((route) => location.pathname === route);
