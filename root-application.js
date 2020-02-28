@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable func-names */
 import * as singleSpa from 'single-spa';
 import 'zone.js';
