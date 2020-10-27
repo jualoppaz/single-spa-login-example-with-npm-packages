@@ -85,7 +85,7 @@ There are several files for the right working of this application and they are:
 ```json
 {
   "name": "single-spa-login-example-with-npm-packages",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Single-spa application example which imports registered applications from NPM packages and manages authentication features as login.",
   "main": "root-application.js",
   "scripts": {
@@ -120,7 +120,7 @@ There are several files for the right working of this application and they are:
     "html-webpack-plugin": "3.2.0",
     "webpack": "4.41.5",
     "webpack-cli": "3.3.10",
-    "webpack-dev-server": "3.10.1"
+    "webpack-dev-server": "3.11.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.27",
@@ -130,13 +130,13 @@ There are several files for the right working of this application and they are:
     "bootstrap": "4.4.1",
     "bootstrap-vue": "2.2.2",
     "single-spa": "4.4.2",
-    "single-spa-angular-app": "0.1.3",
-    "single-spa-auth-app": "0.1.1",
-    "single-spa-home-app": "0.1.2",
-    "single-spa-layout-app": "0.2.4",
-    "single-spa-react-app": "0.1.2",
+    "single-spa-angular-app": "0.1.5",
+    "single-spa-auth-app": "0.1.4",
+    "single-spa-home-app": "0.1.4",
+    "single-spa-layout-app": "0.2.5",
+    "single-spa-react-app": "0.1.4",
     "single-spa-vue": "1.7.0",
-    "single-spa-vue-app": "0.1.7",
+    "single-spa-vue-app": "0.1.9",
     "vue": "2.6.11",
     "vue-router": "3.1.4",
     "vue-toastr": "2.1.2",
