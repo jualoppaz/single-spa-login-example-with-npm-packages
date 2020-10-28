@@ -1,7 +1,6 @@
 <img src="https://single-spa.js.org/img/logo-white-bgblue.svg" width="50" height="50">
 
 [![npm version](https://img.shields.io/npm/v/single-spa-login-example-with-npm-packages.svg?style=flat-square)](https://www.npmjs.org/package/single-spa-login-example-with-npm-packages)
-[![](https://data.jsdelivr.com/v1/package/npm/single-spa-login-example-with-npm-packages/badge)](https://www.jsdelivr.com/package/npm/single-spa-login-example-with-npm-packages)
 
 # single-spa-login-example-with-npm-packages
 
