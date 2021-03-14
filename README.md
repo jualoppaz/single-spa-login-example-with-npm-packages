@@ -85,7 +85,7 @@ There are several files for the right working of this application and they are:
 ```json
 {
   "name": "single-spa-login-example-with-npm-packages",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Single-spa application example which imports registered applications from NPM packages and manages authentication features as login.",
   "main": "root-application.js",
   "scripts": {
@@ -131,7 +131,7 @@ There are several files for the right working of this application and they are:
     "bootstrap-vue": "2.2.2",
     "single-spa": "4.4.2",
     "single-spa-angular-app": "0.1.5",
-    "single-spa-auth-app": "0.1.4",
+    "single-spa-auth-app": "0.2.0",
     "single-spa-home-app": "0.1.4",
     "single-spa-layout-app": "0.2.5",
     "single-spa-react-app": "0.1.4",
