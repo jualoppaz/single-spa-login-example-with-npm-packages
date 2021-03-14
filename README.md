@@ -1,7 +1,6 @@
 <img src="https://single-spa.js.org/img/logo-white-bgblue.svg" width="50" height="50">
 
 [![npm version](https://img.shields.io/npm/v/single-spa-login-example-with-npm-packages.svg?style=flat-square)](https://www.npmjs.org/package/single-spa-login-example-with-npm-packages)
-[![](https://data.jsdelivr.com/v1/package/npm/single-spa-login-example-with-npm-packages/badge)](https://www.jsdelivr.com/package/npm/single-spa-login-example-with-npm-packages)
 
 # single-spa-login-example-with-npm-packages
 
@@ -85,7 +84,7 @@ There are several files for the right working of this application and they are:
 ```json
 {
   "name": "single-spa-login-example-with-npm-packages",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Single-spa application example which imports registered applications from NPM packages and manages authentication features as login.",
   "main": "root-application.js",
   "scripts": {
@@ -131,7 +130,7 @@ There are several files for the right working of this application and they are:
     "bootstrap-vue": "2.2.2",
     "single-spa": "4.4.2",
     "single-spa-angular-app": "0.1.5",
-    "single-spa-auth-app": "0.1.4",
+    "single-spa-auth-app": "0.2.0",
     "single-spa-home-app": "0.1.4",
     "single-spa-layout-app": "0.2.5",
     "single-spa-react-app": "0.1.4",
